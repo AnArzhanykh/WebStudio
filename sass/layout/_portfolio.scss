@@ -1,0 +1,77 @@
+.portfolio{
+    margin-top: 93px;
+    margin-bottom: 94px;
+
+
+    .selection{
+        margin-bottom: 34px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .selection__item{
+        margin-right: 8px;
+    }
+
+    .selection__text{
+        display: block;
+        padding: 6px 22px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        border-radius: 4px;
+        background-color: $section-color;
+        transition: color 250ms $main-animation , background-color 250ms $main-animation;
+        cursor: pointer; 
+        color: $secondary-color;
+    }
+
+
+
+    .selection__text:last-child{
+        margin-right: 0px;
+    }
+
+    .selection__text:hover,
+    .selection__text:focus{
+        background-color: $active-color;
+        color: $hero-color;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+        0px 1px 2px rgba(0, 0, 0, 0.08), 
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+
+
+
+    &__list-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item{
+        width: calc((100% - 60px)/3);
+        border: 1px solid #EEEEEE;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        transition: color  250ms $main-animation , box-shadow  250ms $main-animation; 
+    }
+
+    &__item:hover{
+        color:red;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    &__item:nth-child(3n){
+        margin-right: 0px;
+    }
+
+    &__item:nth-last-child(-n + 3 ){
+        margin-bottom: 0px;
+    } 
+
+
+
+}
