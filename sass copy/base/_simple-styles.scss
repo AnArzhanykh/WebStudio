@@ -15,15 +15,13 @@ h1, h2, h3, h4,h5, h6 {
     color: $secondary-color;
 }
 
-.list{   
+.list{
+    display: flex;
     list-style: none;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
-
-    @media screen and (min-width: 1024px){
-        display: flex;
-    }   
+    
 }
 
 
@@ -36,16 +34,10 @@ h1, h2, h3, h4,h5, h6 {
 }
 
 .container {
-    @media screen and (max-width: 480px){
-        max-width: 480px;
-    }
-
-    @media screen and (min-width: 1024px){
-        width: 1230px;
-        margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+    width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .icon{

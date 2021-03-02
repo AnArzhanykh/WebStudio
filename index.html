@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>seventh homework</title>
+        <title>eighth homework</title>
         <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"> -->
         <link rel="stylesheet" href="./css/main.css">
@@ -14,32 +14,40 @@
                 <nav class="header__navigation">
                     <a href="./index.html" class="logo header__logo--right"><span class="active">Web </span>Studio<span></span></a>
 
-                    <ul class="header__site-nav list">
-                        <li class="header__item"><a href="./index.html" class="link active">Студия</a></li>
-                        <li class="header__item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-                        <li class="header__item"><a href="#" class="link">Контакты</a></li>
-                    </ul>
+                    <button type="button">
+                        <svg height="40" width="40">
+                            <use href ="./images/sprite.svg#icon-close"></use>
+                            <use href ="./images/sprite.svg#icon-menu"></use>
+                        </svg>
+                    </button>
+                    <div class="header__menu">                       
+                        <ul class="header__site-nav list">
+                            <li class="header__item"><a href="./index.html" class="link active">Студия</a></li>
+                            <li class="header__item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                            <li class="header__item"><a href="#" class="link">Контакты</a></li>
+                        </ul>
+
+                        <ul class="header__contacts list">
+                            <li class="header__item">    
+                                <a  class="link" href="mailto:info@devstudio.com">
+                                    <svg class="header__icon" style="width: 16px; height: 12px">
+                                        <use href="./images/sprite.svg#icon-envelope"></use>
+                                    </svg>
+                                    info@devstudio.com
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a class="link" href="tel:+38 096 111 11 11" >
+                                    <svg class="header__icon" style="width: 10px; height: 15px">
+                                        <use href="./images/sprite.svg#icon-Vector"></use>
+                                    </svg>
+                                    +38 096 111 11 11
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
-    
-                <ul class="header__contacts list">
-                    <li class="header__item">    
-                        <a  class="link" href="mailto:info@devstudio.com">
-                            <svg class="header__icon" style="width: 16px; height: 12px">
-                                <use href="./images/sprite.svg#icon-envelope"></use>
-                            </svg>
-                            info@devstudio.com
-                        </a>
-                    </li>
-                    <li class="header__item">
-                        <a class="link" href="tel:+38 096 111 11 11" >
-                            <svg class="header__icon" style="width: 10px; height: 15px">
-                                <use href="./images/sprite.svg#icon-Vector"></use>
-                            </svg>
-                            +38 096 111 11 11
-                        </a>
-                    </li>
-                </ul>            
-            </div>          
+            </div>
         </header>
 
         <main>
