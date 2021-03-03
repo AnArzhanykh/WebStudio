@@ -1114,6 +1114,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #757575;
 }
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 @media screen and (max-width: 767px) {
   .header {
     position: relative;
