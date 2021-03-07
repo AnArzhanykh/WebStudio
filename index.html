@@ -164,7 +164,25 @@
                     <h2 class="team__section-title section-title">Наша команда</h2>
                     <ul class="list team__list-cards">
                         <li class="team__card">
-                            <img class="team__employee" src="./images/product_designer.jpg" alt="Product Designer">
+                            <picture>
+                                <source media="(min-width: 1200px)" sizes="(max-width: 270px)"
+                                        srcset="./images/product_designer270x260.jpg 1x,
+                                                ./images/product_designer540x520@2x.jpg 2x"
+                                >
+                                <source media="(min-width: 768px)" sizes="(max-width: 354px)"
+                                        srcset="./images/product_designer354x260.jpg 1x,
+                                                ./images/product_designer708x520@2x.jpg 2x"
+                                >
+                                <source media="(max-width: 767px)" sizes="(max-width: 450px)"
+                                        srcset="./images/product_designer450x320.jpg 1x,
+                                                ./images/product_designer900x640@2x.jpg 2x"
+                                >
+                                <img 
+                                class="team__employee" 
+                                src="./images/product_designer450x320.jpg" 
+                                alt="Product Designer"
+                                >
+                            </picture>
                             <h3 class="team__title">Николай Кучеренко</h3>
                             <p class="team__text">Product Designer</p>
                             <ul class="list team__list-items">
@@ -199,8 +217,24 @@
                             </ul>
                         </li>
     
-                        <li class="team__card">
-                            <img class="team__employee" src="./images/fronted_developer.jpg" alt="Frontend Developer">
+                        <li class="team__card"> <picture>
+                            <source media="(min-width: 1200px)" sizes="(max-width: 270px)"
+                                    srcset="./images/fronted_developer270x260.jpg 1x,
+                                            ./images/fronted_developer540x520@2x.jpg 2x"
+                            >
+                            <source media="(min-width: 768px)" sizes="(max-width: 354px)"
+                                    srcset="./images/fronted_developer354x260.jpg 1x,
+                                            ./images/fronted_developer708x520@2x.jpg 2x"
+                            >
+                            <source media="(max-width: 767px)" sizes="(max-width: 450px)"
+                                    srcset="./images/fronted_developer450x320.jpg 1x,
+                                            ./images/fronted_developer900x640@2x.jpg 2x"
+                            >
+                            <img 
+                            class="team__employee" 
+                            src="./images/fronted_developer450x320.jpg" 
+                            alt="Frontend Developer"
+                            >
                             <h3 class="team__title">Ольга Иванова</h3>
                             <p class="team__text">Frontend Developer</p>
                             <ul class="list team__list-items">

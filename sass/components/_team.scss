@@ -60,7 +60,7 @@
             max-width: 450px;
         }
         @media screen and (min-width: 768px){
-            width: calc((100% - 30px)/2);
+            width: 354px;
             margin-right: 30px;
         }
         @media screen and (min-width: 1200px) {
@@ -82,9 +82,20 @@
         }      
     }
 
-    // &__employee{
-    //     width: 100%;
-    // }
+    &__employee{
+        // max-width: 100%;
+        @media screen and (max-width:  767px) {
+            width: 450px;
+        }
+        @media screen and (min-width:  768px) {
+            width: 354px;
+        }
+        @media screen and (min-width:  1200px) {
+            width: 270px;
+        }     
+    }
+
+
 
     &__text {
         margin-top: 0px;
