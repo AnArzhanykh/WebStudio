@@ -144,15 +144,30 @@
                     <h2 class="category__section-title section-title">Чем мы занимаемся</h2>
                     <ul class="list">
                         <li class="category__item">
-                            <img src="./images/desctop.jpg" alt="Human works in desctop" class="icategory__mage">
+                            <img 
+                                src="./images/desctop.jpg" 
+                                srcset="./images/desctop@2x.jpg 2x"
+                                alt="Human works in desctop" 
+                                class="icategory__image"
+                            >
                             <p class="category__text">Десктопные приложения</p>
                         </li>
                         <li class="category__item">
-                            <img src="./images/mobile.jpg" alt="mobile" class="category__image">
+                            <img 
+                                src="./images/mobile.jpg" 
+                                srcset="./images/mobile@2x.jpg 2x"
+                                alt="mobile" 
+                                class="icategory__image"
+                            >
                             <p class="category__text">Мобильные приложения</p>
                         </li>
                         <li class="category__item">
-                            <img src="./images/designer.jpg" alt="Apple screen" class="category__image">
+                            <img 
+                                src="./images/designer.jpg" 
+                                srcset="./images/designer@2x.jpg 2x"
+                                alt="Apple screen" 
+                                class="icategory__image"
+                            >
                             <p class="category__text">Дизайнерские решения</p>
                         </li>
                     </ul>
@@ -217,24 +232,26 @@
                             </ul>
                         </li>
     
-                        <li class="team__card"> <picture>
-                            <source media="(min-width: 1200px)" sizes="(max-width: 270px)"
-                                    srcset="./images/fronted_developer270x260.jpg 1x,
-                                            ./images/fronted_developer540x520@2x.jpg 2x"
-                            >
-                            <source media="(min-width: 768px)" sizes="(max-width: 354px)"
-                                    srcset="./images/fronted_developer354x260.jpg 1x,
-                                            ./images/fronted_developer708x520@2x.jpg 2x"
-                            >
-                            <source media="(max-width: 767px)" sizes="(max-width: 450px)"
-                                    srcset="./images/fronted_developer450x320.jpg 1x,
-                                            ./images/fronted_developer900x640@2x.jpg 2x"
-                            >
-                            <img 
-                            class="team__employee" 
-                            src="./images/fronted_developer450x320.jpg" 
-                            alt="Frontend Developer"
-                            >
+                        <li class="team__card"> 
+                            <picture>
+                                <source media="(min-width: 1200px)" sizes="(max-width: 270px)"
+                                        srcset="./images/fronted_developer270x260.jpg 1x,
+                                                ./images/fronted_developer540x520@2x.jpg 2x"
+                                >
+                                <source media="(min-width: 768px)" sizes="(max-width: 354px)"
+                                        srcset="./images/fronted_developer354x260.jpg 1x,
+                                                ./images/fronted_developer708x520@2x.jpg 2x"
+                                >
+                                <source media="(max-width: 767px)" sizes="(max-width: 450px)"
+                                        srcset="./images/fronted_developer450x320.jpg 1x,
+                                                ./images/fronted_developer900x640@2x.jpg 2x"
+                                >
+                                <img 
+                                class="team__employee" 
+                                src="./images/fronted_developer450x320.jpg" 
+                                alt="Frontend Developer"
+                                >
+                            </picture>
                             <h3 class="team__title">Ольга Иванова</h3>
                             <p class="team__text">Frontend Developer</p>
                             <ul class="list team__list-items">
@@ -270,7 +287,25 @@
                         </li>
                         
                         <li class="team__card">
-                            <img class="team__employee" src="./images/marketing.jpg" alt="Marketing">
+                            <picture>
+                                <source media="(min-width: 1200px)" sizes="(max-width: 270px)"
+                                        srcset="./images/marketing270x260.jpg 1x,
+                                                ./images/marketing540x520@2x.jpg 2x"
+                                >
+                                <source media="(min-width: 768px)" sizes="(max-width: 354px)"
+                                        srcset="./images/marketing354x260.jpg 1x,
+                                                ./images/marketing708x520@2x.jpg 2x"
+                                >
+                                <source media="(max-width: 767px)" sizes="(max-width: 450px)"
+                                        srcset="./images/marketing450x320.jpg 1x,
+                                                ./images/marketing900x640@2x.jpg 2x"
+                                >
+                                <img 
+                                class="team__employee" 
+                                src="./images/marketing270x260.jpg" 
+                                alt="Marketing"
+                                >
+                            </picture>
                             <h3 class="team__title">Андрей Шевченко</h3>
                             <p class="team__text">Marketing</p>
                             <ul class="list team__list-items">
@@ -306,7 +341,25 @@
                         </li>
 
                         <li class="team__card">
-                            <img class="team__employee" src="./images/ui_designer.jpg" alt="UI Designer">
+                            <picture>
+                                <source media="(min-width: 1200px)" sizes="(max-width: 270px)"
+                                        srcset="./images/ui_designer270x260.jpg 1x,
+                                                ./images/ui_designer540x520@2x.jpg 2x"
+                                >
+                                <source media="(min-width: 768px)" sizes="(max-width: 354px)"
+                                        srcset="./images/ui_designer354x260.jpg 1x,
+                                                ./images/ui_designer708x520@2x.jpg 2x"
+                                >
+                                <source media="(max-width: 767px)" sizes="(max-width: 450px)"
+                                        srcset="./images/ui_designer450x320.jpg 1x,
+                                                ./images/ui_designer900x640@2x.jpg 2x"
+                                >
+                                <img 
+                                class="team__employee" 
+                                src="./images/ui_designer270x260.jpg" 
+                                alt="UI Designer"
+                                >
+                            </picture>
                             <h3 class="team__title">Иван Николаев</h3>
                             <p class="team__text">UI Designer</p>
                             <ul class="list team__list-items">
