@@ -1151,15 +1151,18 @@ img {
   margin: 20px 24px 4px;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card__title {
+    width: 100%;
+    overflow-y: hidden;
+  }
+}
+
 .card__type {
   font-size: 16px;
   line-height: 1.87;
   margin: 0px 24px;
   color: #757575;
-}
-
-.header {
-  border-bottom: 1px solid #ECECEC;
 }
 
 @media screen and (max-width: 767px) {
@@ -1171,6 +1174,7 @@ img {
 .header__container {
   padding-left: 15px;
   padding-right: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 @media screen and (max-width: 767px) {
