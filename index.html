@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>eighth homework</title>
+        <meta name="description" content="on this page you will find general information about our studio">
+        <title>Web Studio main-page</title>
         <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
@@ -602,7 +603,9 @@
                         </span>
                     </label>
 
-                    <textarea class="modal__coment" name="coment" id="coment" placeholder="Комментарий"></textarea>
+                    <label>
+                        <textarea class="modal__coment" name="coment" id="coment" placeholder="Комментарий"></textarea>
+                    </label>
 
                     <label class="modal__checkbox-label">
                         <input class="modal__checkbox" type="checkbox" name="checkbox">
@@ -612,7 +615,12 @@
                         </span>
                     </label>
 
-                    <button class="modal__icon-close" data-modal-close style="height: 30px; width: 30px;">
+                    <button type="button" 
+                            class="modal__icon-close" 
+                            data-modal-close 
+                            style="height: 30px; width: 30px;"
+                            aria-label="close modal form"
+                        >
                         <svg version="1.1" width="28" height="28"
                                 viewBox="0 0 32 32"
                                 baseProfile="full"
@@ -624,7 +632,12 @@
                                 <use href= "./images/sprite.svg#icon-close"></use>
                             </svg>
                     </button>
-                    <button class="button .modal__button">Отправить</button>
+                    <button 
+                        type="button"
+                        aria-label="send modal form"
+                        class="button .modal__button"
+                        >Отправить
+                    </button>
                 </form>
                 
             </div>
